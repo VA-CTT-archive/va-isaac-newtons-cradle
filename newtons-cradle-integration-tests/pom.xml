@@ -49,9 +49,9 @@
                                 <artifact>
                                     <groupId>gov.vha.isaac.terminology.converters</groupId>
                                     <artifactId>term-convert-rf2-econcept-sct</artifactId>
-                                    <version>20150731-loader-2.2-S</version>
+                                    <version>20150731-loader-2.2</version>
                                     <type>jbin.zip</type>
-                                    <classifier>Snapshot</classifier>
+                                    <classifier>Full</classifier>
                                 </artifact>
                                 <artifact>
                                     <groupId>gov.vha.isaac.isaac-metadata.modules</groupId>
