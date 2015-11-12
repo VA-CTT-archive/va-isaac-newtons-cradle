@@ -83,7 +83,9 @@ public class SememeBuilderImpl<C extends SememeChronology<? extends SememeVersio
             referencedComponentNid, 
             Get.identifierService().getSememeSequenceForUuids(this.getUuids()));
         sememeChronicle.setAdditionalUuids(additionalUuids);
-        Get.identifierService().setConceptSequenceForComponentNid(assemblageConceptSequence, sememeChronicle.getNid());
+        //TODO this isn't even right - refComponNid might not be a concept... need to figure out desired behavior.
+        //Somebody here should probably check if the refComponent is a concept, and if not, walk up till it finds one....
+        Get.identifierService().setConceptSequenceForComponentNid(referencedComponentNid, sememeChronicle.getNid());
         switch (sememeType) {
             case COMPONENT_NID:
                 ComponentNidSememeImpl cnsi = (ComponentNidSememeImpl) 
@@ -153,7 +155,9 @@ public class SememeBuilderImpl<C extends SememeChronology<? extends SememeVersio
             referencedComponentNid, 
             Get.identifierService().getSememeSequenceForUuids(this.getUuids()));
         sememeChronicle.setAdditionalUuids(additionalUuids);
-        Get.identifierService().setConceptSequenceForComponentNid(assemblageConceptSequence, sememeChronicle.getNid());
+        //TODO this isn't even right - refComponNid might not be a concept... need to figure out desired behavior.
+        //Somebody here should probably check if the refComponent is a concept, and if not, walk up till it finds one....
+        Get.identifierService().setConceptSequenceForComponentNid(referencedComponentNid, sememeChronicle.getNid());
         switch (sememeType) {
             case COMPONENT_NID:
                 ComponentNidSememeImpl cnsi = (ComponentNidSememeImpl) 
