@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>gov.vha.isaac.newtons-cradle</groupId>
-        <artifactId>newtons-cradle-parent</artifactId>
+        <artifactId>va-newtons-cradle</artifactId>
         <version>1.25-SNAPSHOT</version>
     </parent>
 
