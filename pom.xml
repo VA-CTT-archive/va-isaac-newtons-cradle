@@ -8,7 +8,7 @@
     </parent>
     
     <groupId>gov.vha.isaac.newtons-cradle</groupId>
-    <artifactId>va-newtons-cradle</artifactId>
+    <artifactId>va-isaac-newtons-cradle</artifactId>
     <version>1.25-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>${project.artifactId}: (MMP)</name>
@@ -16,7 +16,7 @@
     <description>Newton's Cradle (ChRonicled Assertion Database of Logical Expressions) Parent Project </description>
     
     <scm>
-        <url>https://github.com/VA-CTT/va-newtons-cradle.git</url>
+        <url>https://github.com/VA-CTT/va-isaac-newtons-cradle.git</url>
     </scm>
 
     <properties>
